@@ -16,7 +16,7 @@ int main()
             int sum = 0;
             for (int k = a; k <= b; k++)
             {
-                cout << array[k];
+                // cout << array[k];
                 sum += array[k];
             }
             best = max(best, sum);
